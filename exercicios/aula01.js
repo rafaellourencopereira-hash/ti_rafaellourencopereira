@@ -25,7 +25,7 @@ let visto = false;
 //   });
 
  Motivo: A variável apoiado está fora do forEach, agindo como global para todos os botões. Quando um botão altera o valor dela, afeta todos os outros.
- Correção: Mover a variável let apoiado = false; para dentro do callback do addEventListener, fazendo cada botão ter seu próprio estado individual.   
+Correção: Mover a variável let apoiado = false; para dentro do callback do addEventListener, fazendo cada botão ter seu próprio estado individual.   
 
 // ex4
 // Complete o if/else para o botao voltar a dizer Apoiar quando o apoio for retirado.
@@ -36,7 +36,7 @@ let visto = false;
 //     botao.textContent = ______________;
 //   }
 
- botao.textContent = "Apoiar";    
+botao.textContent = "Apoiar";    
 
 // ex5
 // Este exercicio eh feito no index.html, nao aqui.
@@ -44,11 +44,11 @@ let visto = false;
 // e faca o botao dele funcionar igual aos outros.
 // Escreva aqui, em uma linha, o que voce mudou na pagina.
 
- Adicionei um novo elemento <article class="card"> dentro do container no index.html com o texto do problema e o botão de apoio.
+Adicionei um novo elemento <article class="card"> dentro do container no index.html com o texto do problema e o botão de apoio.
 
 // ex6
 // Um cartao precisa nascer ja apoiado: contagem em 1 e botao escrito Apoiado.
 // O que voce mudaria no JavaScript para ele funcionar direito desde o primeiro clique?
 // E por que a sua solucao nao serve para os outros cartoes?
 
- Solução: Para esse cartão específico, a sua variável local de controle deve nascer iniciada como let apoiado = true;.// Por que não serve para os outros: Porque os outros cartões começam no estado inicial não apoiado (false). Se todos começassem como true, o comportamento inicial dos botões não corresponderia ao estado real de cada cartão.
+Solução: Para esse cartão específico, a sua variável local de controle deve nascer iniciada como let apoiado = true;.// Por que não serve para os outros: Porque os outros cartões começam no estado inicial não apoiado (false). Se todos começassem como true, o comportamento inicial dos botões não corresponderia ao estado real de cada cartão.
