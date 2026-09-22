@@ -3,10 +3,12 @@
 
 // ex1
 // Escreva a linha que cria uma variavel chamada visto guardando o valor falso.
+
 let visto = false;
 
 // ex2
 // Diga o que cada comparacao devolve, true ou false:
+// 
     5 === 5 -> true
    "5" === 5 -> false
    "5" == 5 -> true
@@ -24,8 +26,8 @@ let visto = false;
 //     });
 //   });
 
- Motivo: A variável apoiado está fora do forEach, agindo como global para todos os botões. Quando um botão altera o valor dela, afeta todos os outros.
-Correção: Mover a variável let apoiado = false; para dentro do callback do addEventListener, fazendo cada botão ter seu próprio estado individual.   
+ Motivo A variável apoiado está fora do forEach, agindo como global para todos os botões. Quando um botão altera o valor dela, afeta todos os outros.
+Correção Mover a variável let apoiado = false; para dentro do callback do addEventListener, fazendo cada botão ter seu próprio estado individual.   
 
 // ex4
 // Complete o if/else para o botao voltar a dizer Apoiar quando o apoio for retirado.
