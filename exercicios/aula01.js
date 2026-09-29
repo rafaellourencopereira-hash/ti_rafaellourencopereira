@@ -9,10 +9,10 @@ let visto = false;
 // ex2
 // Diga o que cada comparacao devolve, true ou false:
 // 
-    5 === 5 -> true
-   "5" === 5 -> false
-   "5" == 5 -> true
-   true === false -> false
+ 5 === 5 -> true
+"5" === 5 -> false
+"5" == 5 -> true
+true === false -> false
 
 // ex3
 // O trecho abaixo roda sem dar erro, mas apoiar um cartao bagunca os outros.
@@ -26,7 +26,7 @@ let visto = false;
 //     });
 //   });
 
- Motivo A variável apoiado está fora do forEach, agindo como global para todos os botões. Quando um botão altera o valor dela, afeta todos os outros.
+Motivo A variável apoiado está fora do forEach, agindo como global para todos os botões. Quando um botão altera o valor dela, afeta todos os outros.
 Correção Mover a variável let apoiado = false; para dentro do callback do addEventListener, fazendo cada botão ter seu próprio estado individual.   
 
 // ex4
