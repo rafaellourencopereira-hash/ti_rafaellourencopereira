@@ -1,0 +1,23 @@
+:root {
+  --cor-fundo-principal: #f4f4f9;
+  --cor-texto-destaque: #1F4E79;
+  --espaco-padrao: 16px;
+  --borda-padrao: 2px solid #1F4E79;
+}
+
+body {
+  background-color: var(--cor-fundo-principal);
+  padding: var(--espaco-padrao);
+  font-family: Arial, sans-serif;
+}
+
+.cartao {
+  border: var(--borda-padrao);
+  padding: var(--espaco-padrao);
+  background-color: #ffffff;
+  margin-bottom: var(--espaco-padrao);
+}
+
+.titulo {
+  color: var(--cor-texto-destaque);
+}
